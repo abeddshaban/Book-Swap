@@ -1,0 +1,71 @@
+.popup__header {
+    font-family: "Google Sans", sans-serif;
+    cursor: context-menu;
+    margin-top: -30px;
+    margin-left: -25px;
+    margin-bottom: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font: large;
+}
+
+#popup__p {
+    color: red;
+    font-weight: 500;
+    margin-top: 16px;
+    margin-left: 12px;
+    padding-bottom: 20px;
+}
+
+#confirm__btn {
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 20%;
+    margin-left: 20%;
+    border-radius: 10px;
+    font-size: x-large;
+    font-weight: 500;
+    padding: 5px;
+    background-color: #4378e5;
+    border: none;
+}
+
+#confirm__btn:hover {
+    color: #4378e5;
+    background-color: white;
+}
+
+#close__btn {
+    color: #f44336;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+    font-size: x-large;
+    font-weight: 500;
+    padding: 5px;
+    background-color: rgb(231, 231, 231);
+    border: none;
+}
+
+#close__btn:hover {
+    color: whitesmoke;
+    background-color: #f44336;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #confirm__btn {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-right: 10%;
+        margin-left: 10%;
+        padding: 5px;
+    }
+    .popup__header {
+        font-size: 25px;
+    }
+}

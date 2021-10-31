@@ -1,0 +1,84 @@
+.feed {
+  flex: 1;
+  margin: 0 20px;
+}
+.feed__title {
+  display: flex;
+  justify-content: center;
+}
+.feed__inputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  background-color: white;
+  padding: 10px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.feed__input {
+  border: 2px solid #4378e5;
+  border-radius: 30px;
+  display: flex;
+  padding: 10px;
+  color: gray;
+  padding-left: 15px;
+}
+
+.feed__input > form {
+  display: flex;
+  width: 100%;
+}
+
+.feed__input > form > input {
+  border: none;
+  width: 100%;
+  margin-left: 10px;
+  outline-width: 0;
+  font-weight: 600;
+}
+
+.feed__input > form > button {
+  border: none;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  font-style: normal;
+  border-radius: 40px;
+  text-decoration: none;
+  background-color: #4378e5;
+}
+
+.feed__input > form > button:hover {
+  background-color: #2a4d92;
+}
+
+.feed__input > form > button:active {
+  background-color: #0055ff;
+}
+
+.feed__inputOptions {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (min-width: 1281px) {
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .feed {
+    z-index: 99;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+}

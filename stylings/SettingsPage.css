@@ -1,0 +1,70 @@
+* {
+  position: relative;
+  z-index: 9999;
+  padding: 0;
+  margin: 0;
+}
+
+.SettingsPage {
+  max-width: 350px;
+  width: auto;
+  margin: auto;
+}
+
+.group__btn {
+  max-width: 350px;
+  width: 350px;
+  margin: auto;
+  display: flex;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid grey;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: pointer;
+}
+
+.group__btn__icon {
+  color: gray;
+  margin: 5px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.group__btn__text {
+  color: grey;
+  display: flex;
+  margin-top: 10px;
+}
+.ArrowBackIcon {
+  display: flex;
+  margin-top: 10px;
+  border: none;
+  background-color: white;
+}
+.ArrowBackIcon:hover {
+  border-radius: 25px;
+  background-color: grey;
+}
+
+#arrowIcon {
+  color: grey;
+  display: flex;
+  margin-top: 7px;
+  float: right;
+  margin-left: auto;
+  z-index: 999;
+}
+
+.group__btn:hover {
+  background-color: #f5b400;
+}
+
+#logout__btn {
+  background-color: #ffa99f;
+}
+
+#logout__btn:hover {
+  background-color: red;
+}

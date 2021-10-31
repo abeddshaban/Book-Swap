@@ -1,0 +1,28 @@
+.feedOfUpload {
+  position: relative;
+  z-index: 1;
+  max-width: 440px;
+  margin: auto;
+}
+
+#imageOfPost {
+  display: none;
+}
+
+.upload__div {
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+  justify-content: center;
+}
+#imge {
+  display: none;
+}
+.post__input {
+  height: 25px;
+}
+
+.imageupload__progress {
+  margin-left: 45px;
+  margin-top: 9px;
+}

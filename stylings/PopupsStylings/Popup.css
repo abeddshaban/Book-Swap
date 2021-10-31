@@ -1,0 +1,161 @@
+.popup-box {
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.box {
+  z-index: 99999;
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 70vh;
+  background: #fff;
+  border-radius: 25px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: auto;
+  margin-top: calc(100vh - 85vh - 20px);
+  max-width: 400px;
+}
+
+.close-icon {
+  cursor: pointer;
+  color: grey;
+}
+
+.close-icon:hover {
+  color: black;
+}
+
+.popup__content {
+  display: flex;
+  color: red;
+  background-color: #fbe9e7;
+  border-radius: 15px;
+}
+
+#popup__p {
+  color: red;
+  font-weight: 500;
+  margin-top: 16px;
+  margin-left: 10px;
+  padding-bottom: 20px;
+}
+
+#ReportProblemIcon {
+  color: red;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.popup__div__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: space-between;
+}
+
+.popup__header {
+  font-family: "Google Sans", sans-serif;
+  cursor: context-menu;
+  color: black;
+  font-size: xx-large;
+  font: large;
+  padding-top: 20px;
+  padding-left: 24px;
+}
+
+#delete__btn {
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 10px;
+  font-size: x-large;
+  font-weight: 500;
+  padding: 5px;
+  border: none;
+  background-color: #f44336;
+}
+
+#delete__btn:hover {
+  color: #f44336;
+  background-color: white;
+}
+
+#close__btn__post {
+  color: #4378e5;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 10px;
+  font-size: x-large;
+  font-weight: 500;
+  padding: 5px;
+  border: none;
+  background-color: rgb(231, 231, 231);
+}
+
+#close__btn__post:hover {
+  color: whitesmoke;
+  background-color: #4378e5;
+}
+
+.display__justifycontent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sharepopup__div {
+  z-index: 99999;
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 70vh;
+  background: #fff;
+  border-radius: 25px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: auto;
+  margin-top: calc(100vh - 85vh - 20px);
+  max-width: 400px;
+}
+
+.sharepopup__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sharepopup__header > span {
+  font-family: "Google Sans", sans-serif;
+  cursor: context-menu;
+  color: black;
+  font-size: xx-large;
+  font: large;
+  margin-bottom: 4px;
+}
+
+.closeIconSharePopup {
+  display: flex;
+  justify-content: flex-end;
+  color: grey;
+  cursor: pointer;
+}
+.closeIconSharePopup:hover {
+  color: black;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+}

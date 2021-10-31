@@ -1,0 +1,11 @@
+.input__ui {
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    align-items: center;
+}
+
+#input__icon {
+    font-size: 40px;
+    margin-right: 10px;
+}

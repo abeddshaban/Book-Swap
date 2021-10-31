@@ -1,0 +1,17 @@
+#closebtn__post {
+    color: #4378e5;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+    font-size: x-large;
+    font-weight: 500;
+    padding: 5px;
+    background-color: rgb(231, 231, 231);
+    border: none;
+    width: 100%;
+}
+
+#closebtn__post:hover {
+    color: whitesmoke;
+    background-color: #4378e5;
+}

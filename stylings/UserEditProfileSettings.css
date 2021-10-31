@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  z-index: 99;
+}
+
+#ArrowBackIcon {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 3px;
+  z-index: 9999;
+}
+
+#ArrowBackIcon:hover {
+  border-radius: 25px;
+  background-color: grey;
+}
+
+.profileImage__div {
+  padding-top: 10px;
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.profile__photo {
+  display: flex;
+  min-width: 85px;
+  min-height: 85px;
+  border: 2px solid #f62755;
+}
+
+.editPen {
+  background-color: lightgrey;
+  padding: 4px;
+  border-radius: 25px;
+  margin-left: -30px;
+  margin-bottom: -8px;
+}
+
+.editPen:hover {
+  background-color: grey;
+}
+
+#ChangeProfileImage {
+  display: none;
+}
+
+.buttons {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#img {
+  display: none;
+}
+
+#changeProfileImg__btn {
+  display: flex;
+  margin-left: 60%;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 10px;
+  font-size: medium;
+  font-weight: 500;
+  padding: 5px;
+  background-color: #f62755;
+  border: none;
+  margin-top: 10px;
+}
+
+#changeProfileImg__btn:hover {
+  color: #f62755;
+  background-color: white;
+}
+
+#update__btn {
+  display: flex;
+  margin-left: 75%;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: 500;
+  padding: 5px;
+  background-color: #4378e5;
+  border: none;
+}
+
+#update__btn:hover {
+  color: #4378e5;
+  background-color: white;
+}
+
+.note {
+  display: flex;
+  padding-top: 10px;
+  margin-left: 10px;
+  background-color: #f7f794;
+}

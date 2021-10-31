@@ -1,0 +1,289 @@
+.post {
+  width: auto;
+  margin: auto;
+  max-width: 500px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  background-color: white;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+  z-index: 1;
+}
+
+.post__header {
+  display: flex;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 10px;
+  z-index: 1;
+}
+
+#post__profileImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+}
+
+#post_profile__image {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+}
+
+.post__img {
+  z-index: 1;
+}
+
+.post__header__rightSide {
+  margin-top: 3px;
+  float: right;
+  margin-left: auto;
+  display: flex;
+}
+
+#DeleteIcon:hover {
+  color: red;
+}
+
+#DeleteIcon {
+  z-index: 1;
+}
+
+.no__frame {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  color: none;
+  margin: auto;
+  width: 100%;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+}
+.no__frame:hover {
+  color: red;
+  background-color: rgb(231, 231, 231);
+}
+
+#post__btn__element {
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 10px;
+  font-size: x-large;
+  font-weight: 500;
+  padding: 5px;
+  border: none;
+  background-color: none;
+}
+
+#threeDots__post {
+  z-index: 1;
+  color: grey;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#threeDots__post:hover {
+  background-color: rgba(128, 128, 128, 0.356);
+}
+
+.post__info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  vertical-align: middle;
+  z-index: 1;
+}
+
+.post__info > h4 {
+  margin-top: 7px;
+  font-size: 15px;
+  color: black;
+}
+
+.post__body {
+  margin: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.post__body > p {
+  max-width: 500px;
+}
+
+.post__buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.post__interactions {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  z-index: 1;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+
+.interactions__button {
+  padding: 4px;
+  border: none;
+  background: none;
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.interactions__button:hover {
+  background-color: rgba(128, 128, 128, 0.582);
+}
+
+.postPopup__btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.postPopup__btn__h {
+  color: red;
+  text-align: center;
+  margin-right: 33%;
+}
+
+.div__post__body__img {
+  max-height: 450px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+.post__body__img {
+  max-width: 100%;
+  max-height: 400px;
+  margin: auto;
+  z-index: 1;
+  image-rendering: optimizeQuality;
+}
+
+.post__footer {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 6px;
+  z-index: 1;
+}
+.post__details__title {
+  font-size: larger;
+  z-index: 1;
+}
+
+.section1__details {
+  display: flex;
+  margin-top: 1px;
+  z-index: 1;
+}
+.section2__details {
+  display: flex;
+  margin-top: 2px;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.value {
+  margin-right: 20px;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  word-break: keep-all;
+}
+.value2 {
+  z-index: 1;
+}
+.bold {
+  font-weight: 700;
+  z-index: 1;
+}
+
+.detailIcon__grade {
+  font-size: small;
+  vertical-align: middle;
+  color: blue;
+  z-index: 1;
+}
+.detailIcon__book {
+  font-size: small;
+  vertical-align: middle;
+  color: grey;
+  margin-right: 3.5px;
+  z-index: 1;
+}
+
+.detailIcon__money {
+  font-size: small;
+  vertical-align: middle;
+  color: green;
+  margin-right: -5px;
+  z-index: 1;
+}
+
+.displayNone {
+  display: none;
+  z-index: 1;
+}
+
+.body__button {
+  z-index: 1;
+  border: 1px solid rgba(128, 128, 128, 0.541);
+  border-radius: 5px;
+  cursor: pointer;
+  background: white;
+  margin-bottom: -15px;
+}
+.body__button:hover {
+  background: rgb(214, 214, 214);
+}
+
+.spanOfButtonPost {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.linkOfPost {
+  color: black;
+  cursor: pointer;
+}
+
+.postId__page {
+  max-width: 450px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: auto;
+  margin: auto;
+  z-index: 1;
+  margin-bottom: 65px;
+  margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .value {
+    font-size: small;
+  }
+  .value2 {
+    font-size: small;
+  }
+  .body__button {
+    width: 110px;
+  }
+}

@@ -1,0 +1,6 @@
+.homePage {
+  max-width: 500px;
+  margin: auto;
+  position: relative;
+  z-index: 4;
+}
